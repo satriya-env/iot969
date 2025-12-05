@@ -10,8 +10,8 @@ LiquidCrystal lcd(12, 11, 5, 4, 3, 2); // RS, E, D4, D5, D6, D7
 const int buzzerPin = 8;
 
 // Waktu alarm (ubah sesuai kebutuhan)
-int alarmHour = 0;
-int alarmMinute = 0;
+int alarmHour = 21;
+int alarmMinute = 17;
 
 void setup() {
   Wire.begin();
